@@ -1,0 +1,26 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    padding: 10px;
+    line-height: 20xp;
+    font-size: 10pt;
+}
+[class*="col"] {
+    padding: 0;
+}
+nav {
+    padding: 10px;
+    border-right: 2px solid;
+    font-size: 11pt;
+}
+.content {
+    padding: 10px;
+}
+/* Controller_* */
+.Layout_view-container {
+    padding: 10px;
+    border: 2px solid;
+    background-color: bisque;
+}

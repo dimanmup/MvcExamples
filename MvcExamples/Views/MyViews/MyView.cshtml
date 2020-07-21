@@ -1,0 +1,13 @@
+﻿@model MvcExamples.Models.PersonModel
+@{
+    ViewBag.Title = "MyView";
+}
+<div>~/Views/<b>MyViews</b>/MyView.cshtml</div>
+@if (Model == null)
+{
+    <div>Модель не пришла.</div>
+}
+else
+{
+    <div>Person { Name = "@Model.Name", Age = @Model.Age }</div>
+}

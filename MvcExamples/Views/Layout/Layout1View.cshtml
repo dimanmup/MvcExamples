@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Layout1";
+    Layout = "~/Views/Shared/Layout1.cshtml";
+}
+<div class="Layout_view-container">
+    <h2>@("Layout1View")</h2>@*Чтобы поставить точку для прослеживания последовательности*@
+    <div>@RenderPage("~/Views/Shared/CurrentDate.cshtml")</div>
+    <div>@RenderPage("~/Views/Shared/CurrentTime.cshtml")</div>
+    <i>В названии вкладки имя текущей оболочки</i>
+</div>

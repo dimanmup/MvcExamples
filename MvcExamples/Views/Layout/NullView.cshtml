@@ -1,0 +1,14 @@
+﻿@{
+    Layout = null;
+}
+<link href="~/Content/Site.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<title>"Null (without Layout)"</title>
+<div class="Layout_view-container">
+    <h2>@("NullView")</h2>@*Чтобы поставить точку для прослеживания последовательности*@
+    <div>@RenderPage("~/Views/Shared/CurrentDate.cshtml")</div>
+    <div>@RenderPage("~/Views/Shared/CurrentTime.cshtml")</div>
+    <i>В названии вкладки имя текущей оболочки</i>
+    <br />
+    <a href="/">Главная</a>
+</div>
